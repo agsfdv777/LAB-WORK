@@ -1,8 +1,10 @@
 # Звіт до роботи
 
-## Тема: _згідно теми_
+## Тема: ООП в мові :snake: Пайтон
 
-### Мета роботи: _згідно теми_
+### Мета роботи
+
+Зрозуміти що таке ООП, класи та їм методи, змінні(в інших джерелах їх називають властивостями), навичтися користуватися ними,зрозуміти відмінність звичайного та об'єктно-орієнтованого представлення даних.
 
 ---
 
@@ -14,7 +16,15 @@
 
 > якщо графічних файлів багато то краще помістити їх у окрему папку, наприклад у мене це папка `pictures`. Уважно дивіться коли вставляєте URL - файл має бути представленим як `raw`.
 
-![alt text](https://github.com/BobasB/it_college/raw/main/reports/pictures/logo-lit.jpg "ІТ Коледж")
+![alt text](https://github.com/zayats1/ItCollegeDB/raw/31b1cf1fb4ccca5a8564d8b03be58abbf7df42c6/lab3/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-09-25%2014-25-50.png)
+
+### Decorators
+
+![alt text](https://github.com/zayats1/ItCollegeDB/raw/31b1cf1fb4ccca5a8564d8b03be58abbf7df42c6/lab3/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-09-25%2014-25-01.png)
+
+### Class methods
+
+![alt text](https://github.com/zayats1/ItCollegeDB/raw/31b1cf1fb4ccca5a8564d8b03be58abbf7df42c6/lab3/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-09-25%2014-34-51.png)
 
 - вставлений код / текстовий або числовий результат / інші результати:
 
@@ -61,6 +71,6 @@ The Pig called Duff is 2 years old now
 - :question: Чи подобається такий формат здачі роботи (Feedback);
   Yes, but actualy no.
 - :question: Побажання для покращення (Suggestions);
-  **Поменше коду за раз, і розлядати кожну властивість ооп окремо**
+  **Поменше коду за одне заняття**
 
 ---
