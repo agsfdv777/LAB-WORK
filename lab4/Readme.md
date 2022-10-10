@@ -1,4 +1,4 @@
-# Звіт до роботи
+# Звіт до роботи 4
 
 ## Тема: _згідно теми_
 
@@ -167,7 +167,7 @@
 
 1. [Віртуальні середовища в Python](https://docs.python.org/3/library/venv.html) - це ізольовані середовища для роботи з 'замороженою' версією Python та його бібліотек. Середовище створюється для кожного проекту окремо і буде мати ті самі характеристики в не залежності де та на якій системі буде запущено;
 
-2. Для створення :male_sign: `VENV`:male_sign: та його активації виконайте команди: 
+2. Для створення :male_sign: `VENV`:male_sign: та його активації виконайте команди(bash :penguin:): 
    
    ```text
    python -m venv ./my_env
@@ -223,7 +223,31 @@
      uninstall     Uninstalls a provided package and removes it from Pipfile.
      update        Runs lock, then sync.
      verify        Verify the hash in Pipfile.lock is up-to-date.
-   
+     
+   Options:
+     --where                         Output project home information.
+     --venv                          Output virtualenv information.
+     --py                            Output Python interpreter information.
+     --envs                          Output Environment Variable options.
+     --rm                            Remove the virtualenv.
+     --bare                          Minimal output.
+     --man                           Display manpage.
+     --support                       Output diagnostic information for use in
+                                     GitHub issues.
+     --site-packages / --no-site-packages
+                                     Enable site-packages for the virtualenv.
+                                     [env var: PIPENV_SITE_PACKAGES]
+     --python TEXT                   Specify which version of Python virtualenv
+                                     should use.
+     --three                         Use Python 3 when creating virtualenv.
+                                     Deprecated
+     --clear                         Clears caches (pipenv, pip).  [env var:
+                                     PIPENV_CLEAR]
+     -q, --quiet                     Quiet mode.
+     -v, --verbose                   Verbose mode.
+     --pypi-mirror TEXT              Specify a PyPI mirror.
+     --version                       Show the version and exit.
+     -h, --help                      Show this message and exit.
    ```
 
 3. 
