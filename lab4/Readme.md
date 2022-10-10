@@ -1,104 +1,79 @@
 # Звіт до роботи 4
 
-## Тема: _згідно теми_
+## Тема: Віртуальні середовища
 
-### Мета роботи: _згідно теми_
+### Мета роботи: ознайомитися із віртуальними середовищами та програмою для полегшення роботи з ними,пакетним менеджером pip та деякими бібліотеками,  методами видалення та встановлення їх.
 
 ---
 
 ### Виконання роботи
 
-- Результати виконання завдання _1...N_;
-  
-  1. Розробили/Створили ...
-  2. Програма вивела значення ...
-  3. Отримано наступні результати ...
-  4. Навчились ...
+#### Основи роботи з сторонніми бібліотеками
 
-- вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
-  
-  > якщо графічних файлів багато то краще помістити їх у окрему папку, наприклад у мене це папка `pictures`. Уважно дивіться коли вставляєте URL - файл має бути представленим як `raw`.
-  > ![alt text](https://github.com/BobasB/it_college/raw/main/reports/pictures/logo-lit.jpg "ІТ Коледж")
+1. Перевірте чи  встановлений pip на компютері
+   
+   ```text
+   pip 22.2.2 from /home/bogdandev/.local/lib/python3.10/site-packages/pip (python 3.10)
+   ```
 
-- вставлений код / текстовий або числовий результат / інші результати:
-  
-  ```python
-  def simple_function_example():
-    pass
-  ```
-  
-  ```text
-  << SOME text HERE >>
-  ```
+2. Передивіться які дії можна зробити за допомогою `pip`. Перевірте які бібліотеки вже інстальовані на Вашому компютері та вкажіть їх у звіті (скріншот або стрічки що вивелись);
+   **Commands:**
+   
+   ```bash
+     install                     Install packages.
+     download                    Download packages.
+     uninstall                   Uninstall packages.
+     freeze                      Output installed packages in requirements format.
+     inspect                     Inspect the python environment.
+     list                        List installed packages.
+     show                        Show information about installed packages.
+     check                       Verify installed packages have compatible dependencies.
+     config                      Manage local and global configuration.
+     search                      Search PyPI for packages.
+     cache                       Inspect and manage pip's wheel cache.
+     index                       Inspect information available from package indexes.
+     wheel                       Build wheels from your requirements.
+     hash                        Compute hashes of package archives.
+     completion                  A helper command used for command completion.
+     debug                       Show information useful for debugging.
+     help                        Show help for commands.
+   ```
+   
+   **pip list**  (не повний)
+   
+   >  pip list
+   > Package                      Version
+   > 
+   > ---------------------------- -----------------
+   > 
+   > anytree                      2.8.0
+   > appdirs                      1.4.4
+   > argon2-cffi                  21.3.0
+   > argon2-cffi-bindings         21.2.0
+   > asciidoc                     10.2.0
+   > asttokens                    2.0.8
+   > async-timeout                4.0.2
+   > attrs                        22.1.0
+   > autocommand                  2.2.1
+   > Automat                      20.2.0
+   > autopep8                     1.6.0
+   > Babel                        2.10.3
+   > backcall                     0.2.0
+   > beautifulsoup4               4.11.1
+   > bleach                       5.0.1
+   > Brotli                       1.0.9
+   > btrfsutil                    5.19.1
+   > certifi                      2022.9.24
+   > cffi                         1.15.1
 
-- результати виконання індивідуального завдання (якщо такі є); 
-  
-  **Основи роботи з сторонніми бібліотеками**
-  
-  1. Перевірте чи  встановлений pip на компютері
-     
-     ```text
-     pip 22.2.2 from /home/bogdandev/.local/lib/python3.10/site-packages/pip (python 3.10)
-     ```
-  
-  2. Передивіться які дії можна зробити за допомогою `pip`. Перевірте які бібліотеки вже інстальовані на Вашому компютері та вкажіть їх у звіті (скріншот або стрічки що вивелись);
-     **Commands:**
-     
-     ```bash
-       install                     Install packages.
-       download                    Download packages.
-       uninstall                   Uninstall packages.
-       freeze                      Output installed packages in requirements format.
-       inspect                     Inspect the python environment.
-       list                        List installed packages.
-       show                        Show information about installed packages.
-       check                       Verify installed packages have compatible dependencies.
-       config                      Manage local and global configuration.
-       search                      Search PyPI for packages.
-       cache                       Inspect and manage pip's wheel cache.
-       index                       Inspect information available from package indexes.
-       wheel                       Build wheels from your requirements.
-       hash                        Compute hashes of package archives.
-       completion                  A helper command used for command completion.
-       debug                       Show information useful for debugging.
-       help                        Show help for commands.
-     
-     ```
-     
-     **pip list**  (не повний)
-     
-     >  pip list
-     > Package                      Version
-     > 
-     > ---------------------------- -----------------
-     > 
-     > anytree                      2.8.0
-     > appdirs                      1.4.4
-     > argon2-cffi                  21.3.0
-     > argon2-cffi-bindings         21.2.0
-     > asciidoc                     10.2.0
-     > asttokens                    2.0.8
-     > async-timeout                4.0.2
-     > attrs                        22.1.0
-     > autocommand                  2.2.1
-     > Automat                      20.2.0
-     > autopep8                     1.6.0
-     > Babel                        2.10.3
-     > backcall                     0.2.0
-     > beautifulsoup4               4.11.1
-     > bleach                       5.0.1
-     > Brotli                       1.0.9
-     > btrfsutil                    5.19.1
-     > certifi                      2022.9.24
-     > cffi                         1.15.1
-  
-  3. Будь-яку сторонню бібліотеку можна встановити на комп'ютер за допомогою `pip install` команди та зразу почати її використовувати,   наприклад встановимо бібліотеку [requests](https://requests.readthedocs.io/en/latest/):
-  
-  4. Вставте у звіт результат виконання команд (скріншот або стрічки що вивелись);
-     
-     ![d]()
-  
-  5. Ознайомтесь які ще методи є в бібліотеці [requests, та спробуйте їх використати](https://requests.readthedocs.io/en/latest/user/quickstart/);
+3. Будь-яку сторонню бібліотеку можна встановити на комп'ютер за допомогою `pip install` команди та зразу почати її використовувати,   наприклад встановимо бібліотеку [requests](https://requests.readthedocs.io/en/latest/):
+
+4. Вставте у звіт результат виконання команд (скріншот або стрічки що вивелись);
+   
+   ![d]()
+
+5. Ознайомтесь які ще методи є в бібліотеці [requests, та спробуйте їх використати](https://requests.readthedocs.io/en/latest/user/quickstart/);
+
 6. Даний спосіб інсталяції робить бібліотеку загальнодоступною для даної системи. Будь-яке оновлення бібліотеки буде застосоване до всіх Python проектів на Вашому комп'ютері;
    
    ```text
@@ -163,7 +138,7 @@
       > Proceed (Y/n)? y
       >   Successfully uninstalled requests-2.1.0
 
-**Робота у віртуальному середовищі**
+#### Робота у віртуальному середовищі
 
 1. [Віртуальні середовища в Python](https://docs.python.org/3/library/venv.html) - це ізольовані середовища для роботи з 'замороженою' версією Python та його бібліотек. Середовище створюється для кожного проекту окремо і буде мати ті самі характеристики в не залежності де та на якій системі буде запущено;
 
@@ -194,7 +169,7 @@
 
 4.  Всі створені файли НЕ потрібно комітити в репозиторій. Щоб уникнути такого автоматично створіть файл `.gitignore` у кореневій папці та вкажіть в ньому папки які потрібно ігнорувати. Ok buddy!
 
-**Робота з Pipenv**
+#### Робота з Pipenv
 
 1. [Pipenv](https://pipenv.pypa.io/en/latest/) - це інструмент для спрощення інсталяції сторонніх бібліотек та створення віруального середовища для кожного проекту. Для його інсталяції застосуйте команду:
    
@@ -223,7 +198,7 @@
      uninstall     Uninstalls a provided package and removes it from Pipfile.
      update        Runs lock, then sync.
      verify        Verify the hash in Pipfile.lock is up-to-date.
-     
+   
    Options:
      --where                         Output project home information.
      --venv                          Output virtualenv information.
@@ -250,7 +225,15 @@
      -h, --help                      Show this message and exit.
    ```
 
-3. 
+3. Для створення середовища я ввів наступні команди 
+   
+   pipenv --python 3.10
+   
+   pipenv --venv
+   
+   pipenv run python -V
+   
+   pipenv install requests
 
 ### Висновок
 
@@ -259,23 +242,37 @@
 - :question: Що зроблено в роботі;
 
 - :question: Чи досягнуто мети роботи;
+  
+  Yes, my master, BobasB.
 
 - :question: Які нові знання отримано;
   
-  Краще освоїв  редактор MarkText
+  Краще освоїв  редактор MarkText, навчився додавати програми в PATH   на  Linux (bash)
 
 - :question: Чи вдалось відповісти на всі питання задані в ході роботи;
+  
+  :male_sign: yes, my master  :male_sign:
 
 - :question: Чи вдалося виконати всі завдання;
   
   :male_sign: yes sir :male_sign:
 
 - :question: Чи виникли складності у виконанні завдання;
+  
+  так, деякі команди в методичці були під вінду:cactus:,pipenv потребувало створення деяких системних змінних та стирання одніє версії
+  
+   пайтона  або глобальної, або повної.
 
 - :question: Чи подобається такий формат здачі роботи (Feedback);
   
   that's :male_sign: amazing :male_sign:
+  
+  дякую за навчання користуванню Пайтоном!
 
 - :question: Побажання для покращення (Suggestions);
+  
+  В методичках вказувати варіанти для Un*x POSIX,  а не лише для вінди.
+  
+  Давати менше завдань за одну роботу(краще знати менше, але досконало)
 
 ---
