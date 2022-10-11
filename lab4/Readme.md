@@ -275,16 +275,33 @@
    я вирішив поставити цю бібліотеку глобально тому, що планую з нею гратися і вчитися з часом.shell
    
    ```shell
-   
+   pip install matplotlib
    ```
    
-   в
+   ![в](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2022-51-55.png)
 
 8. Visual Studio дозволяє змінити Python інтерпрета<mark>т</mark>ор для запуску через кнопку `Run` (трикутник <img title="" src="https://github.githubassets.com/images/icons/emoji/unicode/25b6.png" alt="arrow_forward" width="50">). Для цього викличіть командну палітру з меню `View -> Command Palette...` та в ній наберіть `Python: Select interpreter`. Якщо у Вас вже є інстальоване віртуальне середовище, Visual Studio відобразить всі доступні інтерпретатори.  **Зроблено!**
 
 9.  Змініть інтерпретатор Python із Вашого середовища та виконайте скрипт через кнопку `Run`. Представте результат у звіті. ![dd](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2021-45-08.png)
 
-10. 
+#### Робота зі змінними середовища
+
+1. Середовища також можна параметризувати за допомогою змінних середовища (*Environment Variables*). Для цього у папці повинен буди файл `.env` із заданими змінними у форматі `KEY=VALUE`. Pipenv автоматично розпізнає ці файли та робить їх доступними всередині середовища. Створіть файл `.env` та виконайте наступний код:
+   
+   ```python
+   import os
+   os.environ['HELLO']
+   ```
+
+2. Що буде якщо виконати скрипт без активації віртуального середовища?
+   
+   >   File "/home/bogdandev/studying/ItCollegeDB/lab4/environ.py", line 3, in <module>
+   >     os.environ['HELLO']
+   >   File "/usr/lib/python3.10/os.py", line 679, in __getitem__
+   >     raise KeyError(key) from None
+   > KeyError: 'HELLO'
+   
+   
 
 ### Висновок
 
