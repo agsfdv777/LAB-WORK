@@ -268,9 +268,23 @@
 
 6. Спробуйте запустити програму з Visual Studio. Запустіть програму з командної стрічки. Запустіть програму зайшовши у віртуальне середовище за допомогою команди `pipenv shell`. Результати запишіть у звіт.
    
-   ![dd](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2021-45-08.png)
+   ![dd](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2022-11-23.png)
 
-7. 
+7. Виберіть якусь бібліотеку на [Pypi](https://pypi.org/) та спробуйте її інсталювати. Знайдіть документацію цієї бібліотека та спробуйте виконати якісь приклади.
+   
+   я вирішив поставити цю бібліотеку глобально тому, що планую з нею гратися і вчитися з часом.shell
+   
+   ```shell
+   
+   ```
+   
+   в
+
+8. Visual Studio дозволяє змінити Python інтерпрета<mark>т</mark>ор для запуску через кнопку `Run` (трикутник <img title="" src="https://github.githubassets.com/images/icons/emoji/unicode/25b6.png" alt="arrow_forward" width="50">). Для цього викличіть командну палітру з меню `View -> Command Palette...` та в ній наберіть `Python: Select interpreter`. Якщо у Вас вже є інстальоване віртуальне середовище, Visual Studio відобразить всі доступні інтерпретатори.  **Зроблено!**
+
+9.  Змініть інтерпретатор Python із Вашого середовища та виконайте скрипт через кнопку `Run`. Представте результат у звіті. ![dd](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2021-45-08.png)
+
+10. 
 
 ### Висновок
 
