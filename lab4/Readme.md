@@ -79,7 +79,7 @@
 
 4. Вставте у звіт результат виконання команд (скріншот або стрічки що вивелись);
    
-   ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-09%2020-35-36.png)
+   ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-11%2009-53-13.png)
 
 5. Ознайомтесь які ще методи є в бібліотеці [requests, та спробуйте їх використати](https://requests.readthedocs.io/en/latest/user/quickstart/);
 
@@ -246,7 +246,7 @@
    pipenv install requests
    ```
    
-    Пізніше мені прийшлося видозмінити Pipfile -- видалив повну версію( хоча можна було б видалити лише загальну версію, а повну -- залишити )
+    Пізніше мені довелося видозмінити Pipfile -- видалив повну версію( хоча можна було б видалити лише загальну версію, а повну -- залишити )
    
    ![ s](https://github.com/zayats1/ItCollegeDB/raw/master/lab4/screenshoths/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-10%2021-24-10.png)
 
@@ -333,7 +333,7 @@
 
 - :question: Чи подобається такий формат здачі роботи (Feedback);
   
-  that's :male_sign: amazing :male_sign:
+  that was :male_sign:Hard:male_sign:
   
   дякую за навчання користуванню Пайтоном!
 
