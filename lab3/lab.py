@@ -6,7 +6,8 @@ class MyName:
 
     def __init__(self, name=None) -> None:
         MyName.total_names += 1  # modify class variable
-        self.name = name if name is not None else self.__anonymous_name  # Class attributes / Instance variables
+        # Class attributes / Instance variables
+        self.name = name if name is not None else self.__anonymous_name
         self.my_id = self.total_names
 
     @property
@@ -55,13 +56,13 @@ all_names = {name: MyName(name) for name in names}
 for name, me in all_names.items():
     print(name, " ", me.name)
     print(f"""{">*<"*20}
-          
-This is object: {me} 
+
+This is object: {me}
 This is object attribute: {me.name} / {me.my_id}
 This is {type(MyName.whoami)}: {me.whoami} / {me.my_email}
 This is {type(me.create_email)} call: {me.create_email()}
-This is static {type(MyName.say_hello)} with defaults: {me.say_hello("f*ck you, Nvidia")} 
-This is class variable {type(MyName.total_names)}: from class {MyName.total_names} / from object {me.total_names} 
+This is static {type(MyName.say_hello)} with defaults: {me.say_hello("f*ck you, Nvidia")}
+This is class variable {type(MyName.total_names)}: from class {MyName.total_names} / from object {me.total_names}
 {"<*>"*20}""")
 
 # class variable is 4 because objects are created before the cycle
