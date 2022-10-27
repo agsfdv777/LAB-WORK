@@ -41,14 +41,14 @@ class TestFigure(unittest.TestCase):
 
     def test_area(self):
         triangle = Figure("трикутник", 4)
-        self.assertAlmostEquals(triangle.get_figure_area, 6.928203230275509)
+        self.assertAlmostEqual(triangle.get_figure_area, 6.928203230275509)
 
         square = Figure("квадрат", 4)
-        self.assertEquals(square.get_figure_area, 16)
+        self.assertEqual(square.get_figure_area, 16)
 
         # поки що прямокутник буде представлений лише квадратом
         rectangle = Figure("прямокутник", 4)
-        self.assertEquals(rectangle.get_figure_area, 16)
+        self.assertEqual(rectangle.get_figure_area, 16)
 
 
 if __name__ == '__main__':

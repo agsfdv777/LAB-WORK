@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-autopep8 -r --in-place .
+autopep8 -r -a --in-place .

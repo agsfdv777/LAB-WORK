@@ -1,4 +1,7 @@
 lab4/my_env
 lab4/Pipfile.lock
 .vscode
-lab5-6/unittest_demo/__pycache__
+lab5-6/__pycache__
+lab5-6/.pytest_cache
+lab5-6/.venv
+lab5-6/Pipfile.lock

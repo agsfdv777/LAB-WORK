@@ -17,9 +17,9 @@ class Figure:
     @property
     def get_figure_length(self):
         # return self.type # робимо помилку
-        return self.length  # джуніор виправив помилку, джуніор молодець, джуніор вип'є молочко
+        return self.length
 
-    @property  # джуніор додає функціонал, джуніор йде хвалитися насяльнику
+    @property
     def get_figure_area(self):
         area = 0
 
@@ -35,3 +35,11 @@ class Figure:
                 pass
 
         return area
+
+
+def test_app_triangle():
+    """Test if we create triangle figure.
+    """
+    fig = "трикутник"
+    triangle = Figure(fig, 4)
+    assert triangle.type == fig, f"Фігура має бути {fig}"
