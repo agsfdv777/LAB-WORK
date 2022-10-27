@@ -18,21 +18,33 @@
   
   ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-33-31.png)
   
+  ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-31-56.png)
+  
   ---
   
   ### Юніт тести
   
+  ![w](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2011-27-48.png)
   
+  ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-49-19.png)
   
   ---
   
   ### Юніт тести з використання бібліотеки PyTest
   
+  ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-55-22.png)
   
+  ![s](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-56-13.png)
+  
+  ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-57-18.png)
   
   ---
   
   ### Візуалізація результатів та покриття коду Coverage (pytest-cov)
+  
+  ![s](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2010-30-08.png)
+  
+  ![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab5-6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-27%2011-14-45.png)
   
   ---
   
@@ -42,7 +54,7 @@
   
   > у висновку потрібно відповісти на запитання:
 
-- :question: Що зроблено в роботі; **Тестування.**  
+- :question: Що зроблено в роботі; **Тестування.**  :cactus:
 
 - :question: Чи досягнуто мети роботи;  :male_sign: **yes sir** :male_sign:  
 
