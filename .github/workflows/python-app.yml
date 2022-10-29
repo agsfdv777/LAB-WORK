@@ -43,3 +43,21 @@ jobs:
     - name: Test with pytest
       run: |
         pytest lab5/tests.py 
+    - name: Coverage
+      run: |
+        curl -Os https://uploader.codecov.io/latest/linux/codecov
+        chmod +x codecov
+        ./codecov
+        pcd example/coverage_io/
+        pytest test.py -v
+        # генеруємо звіт
+    - name: Generate Report
+      run: |
+        cd example/coverage_io/
+        coverage run -m unittest -v
+        coverage xml
+    # відсилаємо його в Coverage
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        directory: example/coverage_io/ 
