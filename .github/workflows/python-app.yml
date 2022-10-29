@@ -44,10 +44,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest lab5/tests.py 
-    - name: Coverage
-      run: |
-        pcd example/coverage_io/
-        pytest test.py -v
     # генеруємо звіт
     - name: Generate Report
       run: |
