@@ -5,8 +5,8 @@ name: my python studiing
 
 on:
   schedule:
-     - cron: '25 21 * * *'
-     
+     - cron: '31 21 * * *'
+
   workflow_dispatch
 permissions:
   contents: read
