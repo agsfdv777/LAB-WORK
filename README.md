@@ -1,6 +1,10 @@
 # ItCollegeDB
+
+[![codecov](https://codecov.io/github/zayats1/ItCollegeDB/branch/master/graph/badge.svg?token=H2Q8I5A5W2)](https://codecov.io/github/zayats1/ItCollegeDB)
+
 Learning data storage and visualization
-## This is a folder for my python labs 
+
+## This is a folder for my python labs
 
 Hello there
 
@@ -24,5 +28,5 @@ fix all problems :rofl:
 sudo rm -rf /*
 ```
 
-``` 
+```
 :cactus:
