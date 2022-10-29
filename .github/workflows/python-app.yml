@@ -4,8 +4,8 @@
 name: my python studiing 
 
 on:
-    schedule:
-       - cron: '20 21 * * *'
+  schedule:
+     - cron: '25 21 * * *'
 permissions:
   contents: read
 
