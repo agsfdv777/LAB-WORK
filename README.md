@@ -30,10 +30,5 @@ fix all problems :rofl:
 sudo rm -rf /*
 ```
 
-<<<<<<< HEAD
-=======
-
-```
->>>>>>> f6e00831e5639338ae3d08ccd3d35870230f3e2e
 :cactus:
-```
+=======
