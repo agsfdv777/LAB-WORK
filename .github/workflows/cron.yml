@@ -4,7 +4,7 @@ name: Cron workflow
 # or API.
 on:
   schedule:
-    - cron: '0 9 * * sat' # Run every Saturday at 9.00
+    - cron: '0 9 * * SAT' # Run every Saturday at 9.00
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
