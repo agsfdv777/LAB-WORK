@@ -1,4 +1,3 @@
-
 name: Manual workflow
 #thank you BobasB
 
@@ -29,19 +28,19 @@ jobs:
         python: ["3.10"]
     steps:
       # Runs a single command using the runners shell
-      - uses: actions/checkout@v3
-      - name: Send greeting
-        run: echo "Hello ${{ github.event.inputs.name }}"
-      - name: Set-up Python
-        uses: actions/setup-python@v4.3.0
-        with:
-         python-version: ${{ matrix.python }}
+    - uses: actions/checkout@v3
+    - name: Send greeting
+      run: echo "Hello ${{ github.event.inputs.name }}"
+    - name: Set-up Python
+      uses: actions/setup-python@v4.3.0
+      with:
+       python-version: ${{ matrix.python }}
 
-      - name: Get Python Version
-        if: github.event.inputs.name != 'Executer'
-        run: |
-          python --version
-          python -c 'import datetime; print(f"This Workflow start at: {datetime.datetime.now()}")'
+    - name: Get Python Version
+      if: github.event.inputs.name != 'Executer'
+      run: |
+        python --version
+         python -c 'import datetime; print(f"This Workflow start at: {datetime.datetime.now()}")'
  
   lab3:
    needs: greet
