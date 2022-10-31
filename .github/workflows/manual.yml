@@ -44,7 +44,7 @@ jobs:
           python -c 'import datetime; print(f"This Workflow start at: {datetime.datetime.now()}")'
  
   lab3:
-   needs: lab3
+   needs: greet
    name: Run Lab 3
    runs-on: ubuntu-latest
    steps:
