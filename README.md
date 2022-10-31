@@ -2,7 +2,7 @@
 
 [![codecov](https://codecov.io/github/zayats1/ItCollegeDB/branch/master/graph/badge.svg?token=H2Q8I5A5W2)](https://codecov.io/github/zayats1/ItCollegeDB)
 
-![GitHub](https://img.shields.io/github/license/zayats1/ItCollegeDB?color=darkviolet&label=my%20code%20license&logo=%3Acactus%3A&logoColor=red&style=flat-square)
+![GitHub](https://img.shields.io/github/license/zayats1/ItCollegeDB?color=darkviolet&label=my%20code%20license&logo=D&logoColor=red&style=for-the-badge)
 
 Learning data storage and visualization
 
