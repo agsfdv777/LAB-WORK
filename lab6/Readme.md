@@ -1,22 +1,44 @@
 # Звіт до роботи
 
-## Тема: _згідно теми_
+## Тема: Github Actions
 
-### Мета роботи: _згідно теми_
+### Мета роботи: навчитися користуватися Github Actions та робити значки
 
 ---
 
 ## Виконання роботи
 
+> Будьте уважні, деякі завдання були виконані не попорядку, й опубліковані так, щоб найбільше відповідати темі завдання
+
 ### 1. Створення першого Workflow з шаблону
 
-### 2. Редагування Workflow
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-29%2017-58-15.png)
+
+### 
+
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-29%2021-44-25.png)
 
 ### 3. Запуск Workflow вручну та по Cron
 
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/Screenshot_20221031_220600.png)
+
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-29%2022-13-31.png)
+
 ### 4. Створення декількох Workflow або завдань
 
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/Screenshot_20221031_221148.png)
+
 ### 5. Перевірка умов для запуску завдань або кроків
+
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/Screenshot_20221031_222635.png)
+
+### 6. Баджі та статуси
+
+[![my python studiyng](https://github.com/zayats1/ItCollegeDB/actions/workflows/python-app.yml/badge.svg)](https://github.com/zayats1/ItCollegeDB/actions/workflows/python-app.yml)
+
+### 7. Інтеграція з Coverage (Додатково)
+
+![d](https://github.com/zayats1/ItCollegeDB/raw/master/lab6/screenshots/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%B7%202022-10-29%2022-25-45.png)
 
 # Висновок:
 
