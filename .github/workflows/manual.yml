@@ -28,20 +28,18 @@ jobs:
       matrix:
         python: ["3.10"]
 
-  lab3:
-    needs: lab3
-    name: Run Lab 3
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Lab_3
-        run: |
-          cat lab3/lab.py
-
-
+lab3:
+  needs: lab3
+  name: Run Lab 3
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+    - name: Lab_3
+      run: |
+        cat lab3/lab.py
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+  steps:
     # Runs a single command using the runners shell
     - uses: actions/checkout@v3
     - name: Send greeting
@@ -68,5 +66,5 @@ jobs:
     # Runs a single command using the runners shell
     - uses: actions/checkout@v3
     - name: Say goodbye
-      if: github.event.inputs.name == 'Executer'
+      if: github.event.inputs.name == !'Executer'
       run: echo "Goodbye ${{ github.event.inputs.name }}"
