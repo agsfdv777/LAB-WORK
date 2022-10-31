@@ -33,27 +33,28 @@ lab3:
   name: Run Lab 3
   runs-on: ubuntu-latest
   steps:
-    - uses: actions/checkout@v3
-    - name: Lab_3
-      run: |
-        cat lab3/lab.py
+  - uses: actions/checkout@v3
+  - name: Lab_3
+    run: |
+     cat lab3/lab.py
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-  steps:
-    # Runs a single command using the runners shell
+    steps:
+      # Runs a single command using the runners shell
     - uses: actions/checkout@v3
     - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
+        run: echo "Hello ${{ github.event.inputs.name }}"
     - name: Set-up Python
       uses: actions/setup-python@v4.3.0
       with:
         python-version: ${{ matrix.python }}
-  
-    - name: Get Python Version
-      if: github.event.inputs.name != 'Executer'
-      run: |
-        python --version
-        python -c 'import datetime; print(f"This Workflow start at: {datetime.datetime.now()}")'
+    
+      - name: Get Python Version
+        if: github.event.inputs.name != 'Executer'
+        run: |
+          python --version
+          python -c 'import datetime; print(f"This Workflow start at: {datetime.datetime.now()}")'
+    
   goodbye:
     name: Say goodbye
     runs-on: ubuntu-latest
