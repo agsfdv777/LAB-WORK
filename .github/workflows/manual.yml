@@ -50,7 +50,7 @@ jobs:
       uses: actions/setup-python@v4.3.0
       with:
         python-version: ${{ matrix.python }}
-      if: github.event.inputs.name != 'Executer'
+  
     - name: Get Python Version
       if: github.event.inputs.name != 'Executer'
       run: |
